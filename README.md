@@ -17,6 +17,7 @@ Tested on Blender 2.82a and 2.83 beta. Newer versions will be supported as they 
 2. Press `left mouse button`
 
 A maximum of 10 initial vertices can be selected. The limitation is made for performance reasons and to exclude accidental use.
+
 You can do multicuts from face or edge mode. Selected edge in this case counts as 2 vertices. Selected face counts as (N) vertices selecected.
 
 ## Working with modifiers  
