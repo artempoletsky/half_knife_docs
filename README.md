@@ -22,7 +22,7 @@ You can do multicuts from face or edge mode. Selected edge in this case counts a
 
 ## Working with modifiers  
 
-Make shure you have unchecked `On cage` button on every modifier, or cuts will go in wrong direction.
+Make sure you have unchecked `On cage` button on every modifier, or cuts will go in wrong direction.
 
 ![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/4.png)
 
