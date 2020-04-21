@@ -20,6 +20,18 @@ A maximum of 10 initial vertices can be selected. The limitation is made for per
 
 ## Working with modifiers  
 
-Make shure you have unchecked `On cage` button on every modifier, or cuts will go ob wrong direction.
+Make shure you have unchecked `On cage` button on every modifier, or cuts will go in wrong direction.
 
 ![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/4.png)
+
+### Cut without preview option
+
+To enable this options 
+1. Go to Blender preferences -> Addons
+2. Find in list `Half knife`
+3. Go to `Keymaps` tab
+4. Open `Half knife` keymap, check `Cut without preview option`
+
+![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/5.png)
+
+Now you can do cuts without pressing mouse buttons. 
