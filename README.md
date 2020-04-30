@@ -37,12 +37,26 @@ To enable this option
 ![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/5.png)
 
 Now you can do cuts without pressing mouse buttons. 
+When the operator is invoked from an outside of the mesh the preview will still be shown.
 
-## Not a replacer of Blender default knife
+### Modal options
+Similar to the default Blender knife features:
 
-1. You can't do cuts from outside of the mesh
-2. With cutting concave ngons broken geometry can be occured. 
+1. Shift: turn off snapping
+2. Z: cut through
 
-By default Blender knife tool will be assingned on `Alt K` shortcut. You can change shortcuts in settings. 
+Slightly different with the default knife features:
 
+1. Ctrl: snap to center. You can snap not only to the center of an edge or vertex but you can snap to the middle of a face too. Edges cutted in between the start and the end point will be cutted in a half. But preview of new vertices position will not be showed. When doing multi cuts this feature will act like "Alt: alternate snap to center."
 
+2. Alt: alternate snap to center. You can still snap to center the start and the end, but edges in between will be cutted in a straight line. 
+
+3. С: angle constraint. Snapping to the half angle or the quarters between the active vertex (starting point) and linked edges. Active face, edges and verts will be highligted now. You need to mouse over linked to the starting point face to make it active. Unlikely in the default knife you can not snap to edge or vert in this mode. You can't activate this mode, when doing multicuts or when starting cut from the outside.
+
+![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/angle_constraint.png)
+
+## Not a 100% replacer of Blender default knife
+
+With cutting concave ngons broken geometry can be occured. 
+
+By default Blender knife tool will be assingned on `Alt K` shortcut. You can change shortcuts in preferences. 
