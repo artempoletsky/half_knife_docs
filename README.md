@@ -1,6 +1,8 @@
 # Half Knife Documentation
 
-[How to install the addon](./install.md)
+## [How to install the addon](./install.md)
+
+## [Shortcut settings](./keymaps.md)
 
 ## Supported Blender versions
 Tested on Blender 2.82a and 2.83 beta. Newer versions will be supported as they comes up. 
