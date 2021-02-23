@@ -8,7 +8,7 @@ If the edge you pointing cannot connect to an altitude the tool will prolong tha
 
 ![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/altitude_2.gif)
 
-You can set up the altitude tool for using without preview by assigning a new shortcut.
+You can set up the altitude tool for using without preview by assigning a new shortcut in the [addon settings.](./keymaps.md)
 
 ![](https://raw.githubusercontent.com/artempoletsky/half_knife_docs/master/img/altitude_4.png)
 
